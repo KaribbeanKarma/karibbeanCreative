@@ -1,0 +1,98 @@
+/* 
+    Author : Karibbean Karma
+    Date : 23.09.2021
+    Version : 1.2
+*/
+
+/*---------------------------------------------------------------*/
+/* GLOBAL */
+/*---------------------------------------------------------------*/
+
+/*background*/
+/*-------------------------------*/
+body {
+    background-color: #ecf0f1;
+    padding-left: 25rem;
+    padding-top: 5rem;
+}
+
+/*fonts*/
+/*-------------------------------*/
+body {
+    color: #2c3e50;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    font-family: "Poppins", sans-serif;
+}
+
+/*links*/
+/*-------------------------------*/
+
+
+/*buttons*/
+/*-------------------------------*/
+
+
+/*forms*/
+/*-------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* LAYOUT */
+/*---------------------------------------------------------------*/
+
+header {
+    position: fixed;
+    top:0; left:0;
+    z-index: 1000;
+    height: 100%;
+    width: 20rem;
+    background: #bdc3c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user img{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+/*navigation*/
+/*-------------------------------*/
+nav .navbar ul{
+    list-style: none;
+    padding: 1rem 3rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #bdc3c7;
+}
+
+header li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #91722c;
+    color: #bdc3c7;
+}
+
+h2 .name  {
+    text-align: center;
+
+}
